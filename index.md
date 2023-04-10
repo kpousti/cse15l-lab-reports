@@ -1,4 +1,5 @@
 *Hello* **World**
+![image](1212.pdf)
 I tried rotating photo but couldnt get it to translate on the website.
 Ive already installed Vs code to this computer allowing for this process to be alot simpler. With VS code having bash already installed on mac this was also bypassed for me. Overall this step was bypassed or passed becuase ive already done these steps eaelier in the year.
 ![Image](cse12lab.pdf) 
