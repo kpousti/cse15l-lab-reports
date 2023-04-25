@@ -12,7 +12,7 @@ Once installed follow the given steps shown to install and add onto the applicat
 ![Image](cse12lab.pdf) 
 
 
-To remotely connect to a server we needed to find your username from the alloted wesbtie URL. Therfore allowing acess to these remote systems where each of us was allowed to enter and control a server that was distant from us. This was used using the ieng6 platform to change our passwords and allow us to control it. Then we were shown the cpu percentage we were using and the host names with averages.
+To remotely connect to a server we needed to find your UCSD username from the allotted wesbtie URL. Therfore allowing acess to these remote systems where each of us was allowed to enter and control a server that was distant from us. This was used using the ieng6 platform to change our passwords and allow us to control it. Then we were shown the cpu percentage we were using and the host names with averages. This essentially allowed us access to the operating system and controls of the distant remote server we are controlling.
 
 
 
