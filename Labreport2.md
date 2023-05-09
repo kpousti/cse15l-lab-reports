@@ -1,16 +1,36 @@
-Part 1: String Server
+Part 1: StringServer Web Server:
+import java.io.IOException;
+import java.net.URL;
 
-In this code segment, I have added an ArrayList to store the words in the query. This approach is more flexible as there is no predefined length for the words in the query, making it easier to handle.
+class handler implements URLHandler {
+    String s ="";
 
-When accessing the server without any queries given, the website displays as follows:
+    public String handlerequest(Url url){
+        if(ur.path().equals("/")){
+            return s;
+        }
 
-When accessing the server without any queries given, the website displays as follows:
+        else if(url.path().contains("/add-message")){
+            String[] parameters = url.getQuery().split("=");
+            if(parameters[0].equals("s")){
+                s=s.concat("\n"+parameters[1]);
+                return string.format(s);
 
-With two queries, the website shows the results for both:
+        }
+    }
+    return "404 Not Found";
+}
+}
 
+class StringServer{
+    public static void main(String[] args) throws IOException{
+        if (args.length==0){
+            System.out.println("Missing port number! Try again with a number between 1 and 9999");
+            return;
+        }
 
-The main method being used here is the one shown above. Thanks to the if statements, it can easily respond to the requests sent to the server.
+        int port= Integer.parseInt(args[0]);
+        Server.start(port, new Handler());
+    }
+}
 
-The URL of the server is the primary argument used within this method. This is because most of the requests made to the server are based on the URL link and changing it. The URL determines the use of the ArrayList and returns the statement.
-
-It's worth noting that the ArrayList is the only relevant field in this class that affects the majority of the server. The ArrayList is updated with every query, which in turn updates the website to display all the string elements contained in the ArrayList.
