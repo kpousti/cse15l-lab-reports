@@ -6,12 +6,13 @@ Out of the commands given ive chosen the grep command.
 
 
 
-**i**This option makes grep ignore case distinctions while searching for patterns. It can be useful when you want to search for a pattern but are not sure about its exact case.
-**r (recursive)**
+**i**<br>
+This option makes grep ignore case distinctions while searching for patterns. It can be useful when you want to search for a pattern but are not sure about its exact case.
+**r (recursive)** <br>
 This option enables grep to search for patterns recursively in subdirectories.
-**v (invert match)**
+**v (invert match)**<br>
 This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
-**c (count)**
+**c (count)**<br>
 This option makes grep print only the amount of lines that have that word.
 
 Examples of each command:
