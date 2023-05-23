@@ -76,7 +76,7 @@ Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.txt
  ```
 
-![image](6.pdf)
+![image](six.pdf)
     
 ### Example 4:
 - **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
@@ -85,7 +85,7 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
 ```
 
-![image](7.pdf)
+![image](seven.pdf)
 
 ```
 Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
