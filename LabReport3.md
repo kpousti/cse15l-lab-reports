@@ -1,4 +1,4 @@
-#Lab Report 3
+# Lab Report 3
 
 
 Out of the commands given Ive chosen the **grep** command.
@@ -6,26 +6,26 @@ Out of the commands given Ive chosen the **grep** command.
 
 4 Interesting command line options involving **grep** that I've found include:
 
-- `R`
-- `V`
-- `C`
-- `I`
+
+- `-i`
+- `-r`
+- `-n`
+- `-c`
 
 
 
+**i  ,ignore-case ** : Ignores case distinctions in patterns and input data**
+Match all lines that contain the word "  " in upper-case or lower-case.
 
-**r (recursive)** This option makes grep ignore case distinctions while searching for patterns. It can be useful when you want to search for a pattern but are not sure about its exact case.
+**r (recursive)** When you want to search in all the files under the current directory and its sub directory. -r option is the one which you need to use
 
-**v (invert match)** This option enables grep to search for patterns recursively in subdirectories.
-
+The`n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string:
 
 **c (count)** <br>This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 
-This option makes grep print only the amount of lines that have that word.
-**i  ,ignore-case ** : Ignores case distinctions in patterns and input data**
-Examples of each command:
+#Examples of each command:
 **i**
-## Example 1: Here is how you can call it on one of the files in the technical directory:
+### Example 1: Here is how you can call it on one of the files in the technical directory:
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
@@ -52,8 +52,7 @@ Output: Prior to 9/11, it was understood that an order to shoot down a commercia
     At that point in time, the Langley pilots did not know the threat they were facing, did not know where United 93 was located, and did not have shootdown authorization.
     Third, NEADS needed orders to pass to the pilots. At 10:10, the pilots over Washington were emphatically told, "negative clearance to shoot." Shootdown authority was first communicated to NEADS at 10:31. It is possible that NORAD commanders would have ordered a shootdown in the absence of the authorization communicated by the Vice President, but given the gravity of the decision to shoot down a commercial airliner, and NORAD's caution that a mistake not be made, we view this possibility as unlikely.
 
-Source: Linuxize - grep Command in Linux with Examples
- The Geek Stuff - 12 Practical Examples of Linux grep Command
+
 ## Example 2:
 - r **(recursive)**
 This option enables grep to search for patterns recursively in subdirectories.
@@ -73,19 +72,20 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
  ```
 Output:General David Wherley-the commander of the 113th Wing-reached out to the Secret Service after hearing secondhand reports that it wanted fighters airborne. A Secret Service agent had a phone in each ear, one connected to Wherley and the other to a fellow agent at the White House, relaying instructions that the White House agent said he was getting from the Vice President. The guidance for Wherley was to send up the aircraft, with orders to protect the White House and take out any aircraft that threatened the Capitol. General Wherley translated this in military terms to flying "weapons free"-that is, the decision to shoot rests in the cockpit, or in this case in the cockpit of the lead pilot. He passed these instructions to the pilots that launched at 10:42 and afterward.
 
-## Exmaple 3:
+### Exmaple 3:
 -**v (invert match)**
 This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 ```
-Command: grep -v "bythe" stringsearch-data/technical/911report/chapter-1.txt
+Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
+
 ```
-Output:  First, the Langley pilots were never briefed about the reason they were scrambled. As the lead pilot explained, "I reverted to the Russian threat. . . . I'm thinking cruise missile threat from the sea. You know you look down and see the Pentagon burning and I thought the bastards snuck one by us. . . . [Y]ou couldn't see any airplanes, and no one told us anything." The pilots knew their mission was to divert aircraft, but did not know that the threat came from hijacked airliners
+728:    He was, and is, right. But the conflict did not begin on 9/11. It had been publicly declared years earlier, most notably in a declaration faxed early in 1998 to an Arabic-language newspaper in London. Few Americans had noticed it. The fax had been sent from thousands of miles away by the followers of a Saudi exile gathered in one of the most remote and impoverished countries on earth.
 ```
-Command: grep -v "bythe" stringsearch-data/technical/911report/chapter-1.txt
+Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.txt
  ```
- Output:First, the Langley pilots were never briefed about the reason they were scrambled. As the lead pilot explained, "I reverted to the Russian threat. . . . I'm thinking cruise missile threat from the sea. You know you look down and see the Pentagon burning and I thought the bastards snuck one by us. . . . [Y]ou couldn't see any airplanes, and no one told us anything." The pilots knew their mission was to divert aircraft, but did not know that the threat came from hijacked airliners
+728:    He was, and is, right. But the conflict did not begin on 9/11. It had been publicly declared years earlier, most notably in a declaration faxed early in 1998 to an Arabic-language newspaper in London. Few Americans had noticed it. The fax had been sent from thousands of miles away by the followers of a Saudi exile gathered in one of the most remote and impoverished countries on earth.
     
-## Example 4:
+### Example 4:
 the -c option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
 ```
 Command:[cs15lsp23ms@ieng6-202]:stringsearch:351$ grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
@@ -97,3 +97,6 @@ Command:[cs15lsp23ms@ieng6-202]:stringsearch:351$ grep -c "earth" stringsearch-d
 Command: stringsearch:351$ grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ```
 ### Output: 6
+
+
+https://www.tecmint.com/12-practical-examples-of-linux-grep-command/
