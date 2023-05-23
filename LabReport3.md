@@ -36,14 +36,14 @@ Match all lines that contain the word "  " in upper-case or lower-case.
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
- **Output**:
+
 ![first](firstt.pdf)
 
 ```
 Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
-**Output**:
+
 ![sec](seccond.pdf)
 
 ## Example 2:
@@ -53,14 +53,14 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
 ```
-**Output**:
+
 ![third](tthird.pdf)
  
  
  ```
 Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/911report/chapter-1.txt
  ```
-**Output**:
+
 ![fort](fourrth.pdf)
 
 ### Exmaple 3:
@@ -70,12 +70,12 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
-**Output**:
+
  ![5th](5.pdf)
 ```
 Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.txt
  ```
-**Output**:
+
 ![6th](6.pdf)
     
 ### Example 4:
@@ -84,13 +84,13 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 ```
 Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
 ```
-**Output**:
+
 ![7th](7.pdf)
 ```
 
 Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ```
-**Output**:
+
 ![8th](8.pdf)
 ## Resources I Used:
 (https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
