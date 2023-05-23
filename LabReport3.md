@@ -91,4 +91,7 @@ Command:[cs15lsp23ms@ieng6-202]:stringsearch:351$ grep -c "earth" stringsearch-d
 Command: stringsearch:351$ grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ```
 ### Output: 6
+## Resources I Used:
+(https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
+(https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
