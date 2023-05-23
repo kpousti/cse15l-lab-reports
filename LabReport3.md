@@ -1,7 +1,7 @@
 # Lab Report 3
 
 
-Out of the commands given Ive chosen the `grep`command.
+Out of the commands given, Ive chosen the `grep`command.
 
 
 4 Interesting command line options involving `grep` that I've found include:
@@ -21,7 +21,7 @@ Match all lines that contain the word "  " in upper-case or lower-case.
 **r (recursive)**: When you want to search in all the files under the current directory and its sub directory. 
 - `-r` option is the one which you need to use
 
-**n (Search by String)**: The`n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
+**n (Search by String)**: The `n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
 - `-n` option is the one which you need to use
 
 **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
@@ -63,7 +63,7 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 
 ![fort](fourrth.pdf)
 
-### Exmaple 3:
+### Example 3:
 -**v (invert match)**
 - This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 ```
@@ -92,7 +92,7 @@ Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ```
 
 ![8th](8.pdf)
-## Resources I Used:
+## Resources I Used
 (https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 (https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
