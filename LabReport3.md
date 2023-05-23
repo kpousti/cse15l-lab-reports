@@ -1,10 +1,10 @@
 # Lab Report 3
 
 
-Out of the commands given Ive chosen the **grep** command.
+Out of the commands given Ive chosen the `grep`command.
 
 
-4 Interesting command line options involving **grep** that I've found include:
+4 Interesting command line options involving `grep` that I've found include:
 
 
 - `-i`
@@ -17,11 +17,13 @@ Out of the commands given Ive chosen the **grep** command.
 **i (ignore-case-search)**: Ignores case distinctions in patterns and input data
 Match all lines that contain the word "  " in upper-case or lower-case.
 - `-i` option is the one which you need to use
+
 **r (recursive)**: When you want to search in all the files under the current directory and its sub directory. 
 - `-r` option is the one which you need to use
 
-**n (Search by String)**: The`n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string:
+**n (Search by String)**: The`n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
 - `-n` option is the one which you need to use
+
 **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 - `-c` option is the one which you need to use
 
@@ -34,14 +36,14 @@ Match all lines that contain the word "  " in upper-case or lower-case.
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
-**Output**: At 8:41, Sweeney told Woodward that passengers in coach were under the impression that there was a routine **medical** emergency in first class. Other flight attendants were busy at duties such as getting medical supplies while Ong and Sweeney were reporting the events.
+**Output**: At 8:41, Sweeney told Woodward that passengers in coach were under the impression that there was a routine medical emergency in first class. Other flight attendants were busy at duties such as getting medical supplies while Ong and Sweeney were reporting the events.
 
 ```
 Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
 **Output**: At the same time, the NEADS mission crew commander was dealing with the **arrival** of the Langley fighters over Washington, D.C., sorting out what their orders were with respect to potential targets. Shortly after 10:10, and having no knowledge either that United 93 had been heading toward Washington or that it had crashed, he explicitly instructed the Langley fighters: "negative- negative clearance to shoot" aircraft over the nation's capital.
-    The Secret Service logged Mrs. Cheney's **arrival** at the White House at 9:52, and she joined her husband in the tunnel. According to contemporaneous notes, at 9:55 the Vice President was still on the phone with the President advising that three planes were missing and one had hit the Pentagon. We believe this is the same call in which the Vice President urged the President not to return to Washington. After the call ended, Mrs. Cheney and the Vice President moved from the tunnel to the shelter conference room.
+    The Secret Service logged Mrs. Cheney's arrival at the White House at 9:52, and she joined her husband in the tunnel. According to contemporaneous notes, at 9:55 the Vice President was still on the phone with the President advising that three planes were missing and one had hit the Pentagon. We believe this is the same call in which the Vice President urged the President not to return to Washington. After the call ended, Mrs. Cheney and the Vice President moved from the tunnel to the shelter conference room.
     The Vice President remembered placing a call to the President just after entering the shelter conference room. There is conflicting evidence about when the Vice President arrived in the shelter conference room. We have concluded, from the available evidence, that the Vice President arrived in the room shortly before 10:00, perhaps at 9:58. The Vice President recalled being told, just after his **arrival**, that the Air Force was trying to establish a combat air patrol over Washington.
 
 ## Example 2:
