@@ -41,7 +41,6 @@ Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
 Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
-
 ```
 
 ![image](seccond.pdf)
@@ -68,7 +67,6 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 - This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 ```
 Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
-
 ```
 
 ![image](5.pdf)
@@ -90,7 +88,7 @@ Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
 ![image](seven.pdf)
 
 ```
-Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
+Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt 
 ```
 
 ![image](8.pdf)
