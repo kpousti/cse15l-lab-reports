@@ -14,17 +14,22 @@ Out of the commands given Ive chosen the **grep** command.
 
 
 
-**i (ignore-case-search)**: Ignores case distinctions in patterns and input data**
+**i (ignore-case-search)**: Ignores case distinctions in patterns and input data
 Match all lines that contain the word "  " in upper-case or lower-case.
-
-**r (recursive)**: When you want to search in all the files under the current directory and its sub directory. `-r` option is the one which you need to use
+- `-i` option is the one which you need to use
+**r (recursive)**: When you want to search in all the files under the current directory and its sub directory. 
+- `-r` option is the one which you need to use
 
 **n (Search by String)**: The`n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string:
-
+- `-n` option is the one which you need to use
 **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
+- `-c` option is the one which you need to use
+
 
 ## Examples of each command:
 **i (ignore-case-search)**: Ignores case distinctions in patterns and input data**
+
+
 ### Example 1: Here is how you can call it on one of the files in the technical directory:
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
