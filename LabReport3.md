@@ -36,13 +36,15 @@ Match all lines that contain the word "  " in upper-case or lower-case.
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
-**Output**:![1](firstt.pdf)
+ **Output**:
+![1](firstt.pdf)
 
 ```
 Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
-**Output**: ![1](seccond.pdf)
+**Output**:
+![1](seccond.pdf)
 
 ## Example 2:
 - **r (recursive)**: When you want to search in all the files under the current directory and its sub directory.
@@ -51,13 +53,15 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
 ```
-**Output**: ![1](tthird.pdf)
+**Output**:
+![1](tthird.pdf)
  
  
  ```
 Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/911report/chapter-1.txt
  ```
-**Output**: ![1](fourrth.pdf)
+**Output**:
+![1](fourrth.pdf)
 
 ### Exmaple 3:
 -**v (invert match)**
@@ -66,11 +70,13 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
-**Output**: ![1](5.pdf)
+**Output**:
+ ![1](5.pdf)
 ```
 Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.txt
  ```
-**Output**: ![1](6.pdf)
+**Output**:
+![1](6.pdf)
     
 ### Example 4:
 - **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
@@ -78,13 +84,14 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 ```
 Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
 ```
-
-### Output: ![1](7.pdf)
+**Output**:
+![1](7.pdf)
 ```
 
 Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ```
-### Output: ![1](8.pdf)
+**Output**:
+![1](8.pdf)
 ## Resources I Used:
 (https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
