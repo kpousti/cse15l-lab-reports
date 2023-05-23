@@ -20,7 +20,7 @@ Using `<ctrl><r>` I was able to refernce my past history, primarily those camman
 
 Once cloned, I pressed `<Enter>` and the ball was rollin...
 
-![Third?](gitclone2)
+![Third?](gitclone2.pdf)
 
 After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` This allowed for me to pratcice Profesors shortcut using `<Tab>`
 
