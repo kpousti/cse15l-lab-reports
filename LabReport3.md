@@ -94,6 +94,6 @@ Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ![image](8.pdf)
 
 ## Resources I Used
-(https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+[Overall Scope](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
-(https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
+[Specific Commands](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
