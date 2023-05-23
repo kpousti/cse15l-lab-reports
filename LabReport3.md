@@ -71,10 +71,10 @@ Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 
 ```
 
- ![image](5.pdf)
+![image](5.pdf)
 ```
 Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.txt
- ```
+```
 
 ![image](six.pdf)
     
