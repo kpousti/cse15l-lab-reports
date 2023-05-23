@@ -72,6 +72,7 @@ Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 ```
 
 ![image](5.pdf)
+
 ```
 Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.txt
 ```
@@ -81,6 +82,7 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 ### Example 4:
 - **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 - The `-c`option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
+
 ```
 Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
 ```
@@ -92,6 +94,7 @@ Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ```
 
 ![image](8.pdf)
+
 ## Resources I Used
 (https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
