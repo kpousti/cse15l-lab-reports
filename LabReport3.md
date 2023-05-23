@@ -24,7 +24,7 @@ Match all lines that contain the word "  " in upper-case or lower-case.
 **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 
 ## Examples of each command:
-**i**
+**i (ignore-case-search)**: Ignores case distinctions in patterns and input data**
 ### Example 1: Here is how you can call it on one of the files in the technical directory:
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
@@ -40,8 +40,8 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
     The Vice President remembered placing a call to the President just after entering the shelter conference room. There is conflicting evidence about when the Vice President arrived in the shelter conference room. We have concluded, from the available evidence, that the Vice President arrived in the room shortly before 10:00, perhaps at 9:58. The Vice President recalled being told, just after his **arrival**, that the Air Force was trying to establish a combat air patrol over Washington.
 
 ## Example 2:
-- r **(recursive)**
-This option enables grep to search for patterns recursively in subdirectories.
+- **r (recursive)**: When you want to search in all the files under the current directory and its sub directory.
+- This option enables grep to search for patterns recursively in subdirectories.
 
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
@@ -60,7 +60,7 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 
 ### Exmaple 3:
 -**v (invert match)**
-This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
+- This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 ```
 Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 
@@ -72,7 +72,8 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 **Output**: 728: He was, and is, right. But the conflict did not begin on 9/11. It had been publicly declared years earlier, most notably in a declaration faxed early in 1998 to an Arabic-language newspaper in London. Few Americans had noticed it. The fax had been sent from thousands of miles away by the followers of a Saudi exile gathered in one of the most remote and impoverished countries on earth.
     
 ### Example 4:
-the `-c`option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
+- **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
+- The `-c`option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
 ```
 Command:[cs15lsp23ms@ieng6-202]:stringsearch:351$ grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
 ```
