@@ -29,10 +29,11 @@ Match all lines that contain the word "  " in upper-case or lower-case.
 
 
 ## Examples of each command:
-**i (ignore-case-search)**: Ignores case distinctions in patterns and input data**
+**i (ignore-case-search)**: Ignores case distinctions in patterns and input data
+- This is useful when you want to search through a file and want to match all lines containing the input given, especially special becuase it is case insentive looking for all types.
+- This can be a editors best friend as he can find all instances of a mistyped word or sequence without having to change capitalization
 
-
-### Example 1: Here is how you can call it on one of the files in the technical directory:
+### Example 1: Here is how you can call it on one of the files in the `technical` directory:
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
@@ -48,6 +49,7 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 ## Example 2:
 - **r (recursive)**: When you want to search in all the files under the current directory and its sub directory.
 - This option enables grep to search for patterns recursively in subdirectories.
+- This is a "Deeper" search than `-i` as it searchs for all of the given input in the directories and sub directorys. The biggest difference is the case sensitivity that this hold compared to command `-i`
 
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
@@ -63,8 +65,8 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 ![image](fourrth.pdf)
 
 ### Example 3:
--**v (invert match)**
-- This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
+- **n (Search by String)**: The `n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
+-This is very valuable when looking for certain lines where a variable is present. This allows editors to find known errors and the output to show th gven line with line number. This is shown here but both of these words ar eon the same line 728.
 ```
 Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 ```
@@ -80,6 +82,7 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 ### Example 4:
 - **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 - The `-c`option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
+- This can allow the editor or viewer to see the amount of lines aurrounf the assocated input and how/ if there is context surrounding it.
 
 ```
 Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
