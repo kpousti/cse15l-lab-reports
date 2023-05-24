@@ -33,7 +33,7 @@ Match all lines that contain the word "  " in upper-case or lower-case.
 - This is useful when you want to search through a file and want to match all lines containing the input given, especially special becuase it is case insentive looking for all types.
 - This can be a editors best friend as he can find all instances of a mistyped word or sequence without having to change capitalization
 
-### Example 1: Here is how you can call it on one of the files in the `technical` directory:
+### Example 1 Here is how you can call it on one of the files in the `technical` directory:
  ```
 Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
@@ -66,7 +66,7 @@ Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/
 
 ### Example 3:
 - **n (Search by String)**: The `n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
--This is very valuable when looking for certain lines where a variable is present. This allows editors to find known errors and the output to show th gven line with line number. This is shown here but both of these words ar eon the same line 728.
+- This is very valuable when looking for certain lines where a variable is present. This allows editors to find known errors and the output to show th gven line with line number. This is shown here but both of these words ar eon the same line 728.
 ```
 Command: grep -n "gathered" stringsearch-data/technical/911report/chapter-1.txt
 ```
