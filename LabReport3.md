@@ -43,7 +43,6 @@ Command:grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
 ```
 Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 ```
-
 ![image](seccond.pdf)
 
 ## Example 2:
@@ -54,11 +53,9 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
 ```
-
 ![image](tthird.pdf)
  
- 
- ```
+  ```
 Command:stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical/911report/chapter-1.txt
  ```
 
@@ -97,6 +94,8 @@ Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 ![image](8.pdf)
 
 ## Resources I Used
-[Overall Scope](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
+[Overall Scope](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 [Specific Commands](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
+[More Commands](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+[Even More Commands](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
