@@ -14,17 +14,16 @@ Out of the commands given, Ive chosen the `grep`command.
 
 
 
-**i (ignore-case-search)**: Ignores case distinctions in patterns and input data
-Match all lines that contain the word "  " in upper-case or lower-case.
+**i (ignore-case-search)**:  Ignores case distinctions in patterns and input data. Matches all lines that contain the specified word, regardless of the case.
 - `-i` option is the one which you need to use
 
-**r (recursive)**: When you want to search in all the files under the current directory and its sub directory. 
+**r (recursive)**: Performs a recursive search in all the files under the current directory and its subdirectories.
 - `-r` option is the one which you need to use
 
-**n (Search by String)**: The `n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
+**n (Search by String)**: The `n` option for grep is very useful when debugging files during compile errors. Displays the line number in the file of the given search string.
 - `-n` option is the one which you need to use
 
-**c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
+**c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output. Prints the count of lines that do not match the pattern.
 - `-c` option is the one which you need to use
 
 
