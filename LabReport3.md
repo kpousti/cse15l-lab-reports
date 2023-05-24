@@ -62,7 +62,7 @@ Command: stringsearch:337$ grep -r "General Wherley" stringsearch-data/technical
 ![image](fourrth.pdf)
 
 
-### Example 3:
+## Example 3:
 - **n (Search by String)**: The `n` option for grep is very useful when debugging files during compile errors. It displays the line number in the file of the given search string.
 - This is very valuable when looking for certain lines where a variable is present. This allows editors to find known errors and the output to show th gven line with line number. This is shown here but both of these words ar eon the same line 728.
 ```
@@ -78,7 +78,7 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 ![image](six.pdf)
 
 
-### Example 4:
+## Example 4:
 - **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 - The `-c`option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
 - This can allow the editor or viewer to see the amount of lines aurrounf the assocated input and how/ if there is context surrounding it.
