@@ -95,7 +95,7 @@ Command: grep -c "President" stringsearch-data/technical/911report/chapter-1.txt
 
 ## Resources I Used
 
-[Overall Scope](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
-[Specific Commands](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
-[More Commands](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
-[Even More Commands](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+- [Overall Scope](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+- [Specific Commands](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
+- [More Commands](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+- [Even More Commands](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
