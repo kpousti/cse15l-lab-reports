@@ -32,7 +32,7 @@ Out of the commands given, Ive chosen the `grep`command.
 - This is useful when you want to search through a file and want to match all lines containing the input given, especially special becuase it is case insentive looking for all types.
 - This can be a editors best friend as he can find all instances of a mistyped word or sequence without having to change capitalization
 
-### Example 1: Here is how you can call it on one of the files in the `technical` directory
+## Example 1: Here is how you can call it on one of the files in the `technical` directory
  ```
 Command: grep -i "medical" stringsearch-data/technical/911report/chapter-1.txt
  ```
