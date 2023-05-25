@@ -29,8 +29,8 @@ Out of the commands given, Ive chosen the `grep`command.
 
 ## Examples of each command:
 **i (ignore-case-search)**: Ignores case distinctions in patterns and input data
-- This is useful when you want to search through a file and want to match all lines containing the input given, especially special becuase it is case insentive looking for all types.
-- This can be a editors best friend as he can find all instances of a mistyped word or sequence without having to change capitalization
+- This is useful when you want to search through a file and want to match all lines containing the input given, especially special becuase it is case insensitive looking for all types.
+- This can be a editors best friend as he can find all instances of a mistyped word or sequence without having to change capitalization.
 
 ## Example 1: Here is how you can call it on one of the files in the given directory
  ```
@@ -46,9 +46,9 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 
 
 ## Example 2:
-- **r (recursive)**: When you want to search in all the files under the current directory and its sub directory.
+- **r (recursive)**: When you want to search in all the files under the current directory and its subdirectories.
 - This option enables grep to search for patterns recursively in subdirectories.
-- This is a "Deeper" search than `-i` as it searchs for all of the given input in the directories and sub directorys. The biggest difference is the case sensitivity that this hold compared to command `-i`
+- This is a "Deeper" search than `-i` as it searchs for all of the given input in the directories and subdirectories. The biggest difference is the case sensitivity that this holds compared to command `-i` .
 
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
