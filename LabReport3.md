@@ -1,7 +1,7 @@
 # Lab Report 3
 
 
-Out of the commands given, Ive chosen the `grep`command.
+Out of the commands given, I've chosen the `grep`command.
 
 
 4 Interesting command line options involving `grep` that I've found include:
@@ -29,7 +29,7 @@ Out of the commands given, Ive chosen the `grep`command.
 
 ## Examples of each command:
 **i (ignore-case-search)**: Ignores case distinctions in patterns and input data
-- This is useful when you want to search through a file and want to match all lines containing the input given, especially special becuase it is case insensitive looking for all types.
+- This is useful when you want to search through a file and want to match all lines containing the input given, especially special because it is case insensitive looking for all types.
 - This can be a editors best friend as he can find all instances of a mistyped word or sequence without having to change capitalization.
 
 ## Example 1: Here is how you can call it on one of the files in the given directory
@@ -48,7 +48,7 @@ Command: grep -i "arrival" stringsearch-data/technical/911report/chapter-1.txt
 ## Example 2:
 - **r (recursive)**: When you want to search in all the files under the current directory and its subdirectories.
 - This option enables grep to search for patterns recursively in subdirectories.
-- This is a "Deeper" search than `-i` as it searchs for all of the given input in the directories and subdirectories. The biggest difference is the case sensitivity that this holds compared to command `-i` .
+- This is a "Deeper" search than `-i` as it searches for all of the given input in the directories and subdirectories. The biggest difference is the case sensitivity that this holds compared to command `-i` .
 
 ```
 Command: stringsearch:336$ grep -r "instructions" stringsearch-data/technical/911report/chapter-1.txt
@@ -81,7 +81,7 @@ Command: grep -n "impoverished" stringsearch-data/technical/911report/chapter-1.
 ## Example 4:
 - **c (count)**: This option makes grep print all lines that do not match the pattern. It can be useful when you want to exclude certain lines from the output.
 - The `-c`option in grep makes it print only the count of matching lines rather than the matching lines themselves. This can be useful when you just want to know the number of lines that match a pattern.
-- This can allow the editor or viewer to see the amount of lines surrounding the assocated input and see how/if there is context surrounding it.
+- This can allow the editor or viewer to see the amount of lines surrounding the associated input and see how/if there is context surrounding it.
 
 ```
 Command: grep -c "earth" stringsearch-data/technical/911report/chapter-1.txt
