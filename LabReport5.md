@@ -84,8 +84,8 @@ public class DataAnalyzer {
         System.out.println("Average: " + average);
     }
 }
-
 ``
+
 
 generate_data.sh:
 bash
