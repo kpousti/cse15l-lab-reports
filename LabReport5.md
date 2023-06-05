@@ -11,11 +11,11 @@ In this lab report, I will be addressing the debugging issue encountered in the 
 The issue in the code is an ArrayIndexOutOfBoundsException error that occurs when accessing elements in the data array. The error message suggests that the index used to access the array is out of bounds.
 
 ### environment (computer, operating system, web browser, terminal/editor, and so on)
-** Mac Computer. 
-** macOS
-** Running on Terminal. 
-** Files built on Eclipse.
-** VS allowed bash to run
+- Mac Computer. 
+- macOS
+- Running on Terminal. 
+- Files built on Eclipse.
+- VS allowed bash to run
 
 
 
