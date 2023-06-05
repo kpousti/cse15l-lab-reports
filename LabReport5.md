@@ -48,7 +48,8 @@ The bash script file should be named `generate_data.sh.`
 Both files should be located in the same directory.
 
 ## DataAnalyzer.java:
-` import java.io.File;
+``
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -85,7 +86,7 @@ public class DataAnalyzer {
         System.out.println("Average: " + average);
     }
 }
-
+``
 
 generate_data.sh:
 bash
@@ -117,11 +118,11 @@ In the loadData method of the DataAnalyzer.java file, modify the loop condition 
 
 java
 Copy code
-`
+``
 for (int i = 0; i < size; i++) {
     data[i] = scanner.nextDouble();
 }
-`
+``
 This change ensures that the loop stays within the valid index range of the data array and prevents the ArrayIndexOutOfBoundsException error.
 
 After making the necessary modifications, recompile the Java file and run the program again. The bug should be fixed, and the program should run without errors, correctly loading the data from the file.
