@@ -1,27 +1,25 @@
-# Lab Report 5, Debugging
+# Lab Report: Debugging
 
-For this lab we will be debugging and looking to fix an issue that arises on the code that we are presented with. 
+## Introduction
+In this lab, the objective is to debug and fix an issue in the provided code.
 
----
+## Part 1: Identifying the Issue
 
-# Part 1 
+### Problem Description
+Explain the problem or error encountered in the code.
 
-## Asking the questions to figuring out what the issue is with the code
+## Part 2: TA's Solution
 
+### TA's Response
+The TA provided a solution to the issue based on the problem description.
 
-
-# Part 2: 
-## A response from a TA asking a leading question or suggesting a command to try 
----
-Response from TA
-
+java
 Hey there,
 
-It looks like the issue might be related to the loop in your loadData method. The loop condition i <= size should be changed to i < size because array indices start from 0 and go up to size - 1.
+It looks like the issue might be related to the loop in your loadData method. The loop condition `i <= size` should be changed to `i < size` because array indices start from 0 and go up to size - 1.
 
 Could you try modifying the loop condition and run the program again? Let me know if it resolves the issue or if you encounter any other errors.
 You can update the loop condition as follows:
-
 ``
 for (int i = 0; i < size; i++) {
     data[i] = scanner.nextDouble();
@@ -86,11 +84,13 @@ public class DataAnalyzer {
         System.out.println("Average: " + average);
     }
 }
+
 ``
 
 generate_data.sh:
 bash
 Copy code
+
 ``
 #!/bin/bash
 
@@ -102,7 +102,6 @@ echo "9.1" >> data.txt
 echo "6.4" >> data.txt
 
 echo "Data file generated successfully."
-
 ``
 
 Full command line (or lines) to trigger the bug:
@@ -128,3 +127,5 @@ This change ensures that the loop stays within the valid index range of the data
 After making the necessary modifications, recompile the Java file and run the program again. The bug should be fixed, and the program should run without errors, correctly loading the data from the file.
 
 Let me know if you need any further assistance!
+# Part 2: 
+During the second half of this quarter, I learned about the importance of proper error handling and debugging techniques. Through lab experiences, I gained a deeper understanding of how to identify and fix bugs in code, as well as the significance of handling exceptions effectively to ensure robustness and reliability in software development. This knowledge has greatly improved my problem-solving skills and allowed me to write more resilient code.
