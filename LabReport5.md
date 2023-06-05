@@ -77,7 +77,7 @@ After modifying the code as suggested, the program should run without any errors
 
 # Setup:
 
-##File & Directory Structure:
+## File & Directory Structure:
 [image](newlibrary.pdf)
 This is just my most recent library that was already under the downloads folder on my mac making it very easy to access and run in terminal. This is my overall prefernce of running methods to see if they are working and correct. We are prgrammers can also do this so we get more different using different interfaces.
 The Java file should be named `DataAnalyzer.java.`
