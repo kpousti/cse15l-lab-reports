@@ -111,13 +111,17 @@ Full command line (or lines) to trigger the bug:
 Compile the Java file:
 Copy code
 ``javac DataAnalyzer.java``
+
+---
 Run the Java program:
 Copy code
 ``java DataAnalyzer``
+
+---
 Description of what to edit to fix the bug:
 In the loadData method of the DataAnalyzer.java file, modify the loop condition in the for loop as follows:
 
-java
+### Fixed code block:
 Copy code
 ``
 for (int i = 0; i < size; i++) {
@@ -129,5 +133,5 @@ This change ensures that the loop stays within the valid index range of the data
 After making the necessary modifications, recompile the Java file and run the program again. The bug should be fixed, and the program should run without errors, correctly loading the data from the file.
 
 Let me know if you need any further assistance!
-# Part 2: 
+## Part 2: 
 During the second half of this quarter, I learned about the importance of proper error handling and debugging techniques. Through lab experiences, I gained a deeper understanding of how to identify and fix bugs in code, as well as the significance of handling exceptions effectively to ensure robustness and reliability in software development. This knowledge has greatly improved my problem-solving skills and allowed me to write more resilient code.
