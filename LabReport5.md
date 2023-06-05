@@ -91,7 +91,8 @@ generate_data.sh:
 bash
 Copy code
 
-``
+```
+
 #!/bin/bash
 
 echo "5" > data.txt
@@ -102,7 +103,8 @@ echo "9.1" >> data.txt
 echo "6.4" >> data.txt
 
 echo "Data file generated successfully."
-``
+
+```
 
 Full command line (or lines) to trigger the bug:
 
