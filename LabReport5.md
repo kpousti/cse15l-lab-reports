@@ -46,7 +46,7 @@ The bash script file should be named `generate_data.sh.`
 Both files should be located in the same directory.
 
 ## DataAnalyzer.java:
-``
+`
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -83,8 +83,8 @@ public class DataAnalyzer {
         double average = sum / data.length;
         System.out.println("Average: " + average);
     }
-}
-``
+`
+
 
 
 generate_data.sh:
