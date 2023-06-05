@@ -3,14 +3,14 @@
 ## Introduction
 In this lab report, I will be addressing the debugging issue encountered in the provided code. The goal is to identify and fix the error to ensure the program runs without any issues.
 
-## Part 1: Identifying the Issue
+# Part 1: Identifying the Issue
 
 
 ## Problem Description
 
 The issue in the code is an ArrayIndexOutOfBoundsException error that occurs when accessing elements in the data array. The error message suggests that the index used to access the array is out of bounds.
 
-### environment (computer, operating system, web browser, terminal/editor, and so on)
+### Environment (computer, operating system, web browser, terminal/editor, and so on)
 - Mac Computer. 
 - macOS
 - Running on Terminal. 
@@ -99,7 +99,7 @@ In the original code, the loop condition i <= size allows the loop to iterate si
 
 Here's the updated code that fixes the bug:
 
-###3 DataAnalyzer.java:
+### DataAnalyzer.java:
 `
 import java.io.File;
 import java.io.FileNotFoundException;
