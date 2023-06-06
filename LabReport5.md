@@ -93,7 +93,7 @@ The Java file should be named `DataAnalyzer.java.`
 The bash script file should be named `generate_data.sh.`
 
 Both files should be located in the same directory. Which they are but one's in Visual Studio Code and one is in Eclipse.
-
+## The contents of each file before fixing the bug:
 ![image](bash.pdf)
 
 The generate_data.sh script uses shell commands to write the desired data into the data.txt file. This automation can be useful when you need to generate data files for testing or when you want to streamline the data generation process.
