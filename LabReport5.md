@@ -19,16 +19,17 @@ The issue in the code is an ArrayIndexOutOfBoundsException error that occurs whe
 
 
 
-### Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, and copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
+### Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, and copy-pasted terminal output is also great. 
 
 I'm working on a Java program that reads data from a file and perform calculations to find the average. However, I'm encountering an ArrayIndexOutOfBoundsException error, and I'm not sure what's causing it. It seems to happen when I'm accessing an element in an array. Im expecting to see this prgram run and cpmpute th average of the given file 
 ![image](practice.pdf)
 
-### Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
-
+## Detail the failure-inducing input and context. Do your best to provide as much context as you can.
+### Failure-Inducing Input and Context:
 I suspect the issue lies in the loadData method, specifically when populating the data array. Any help in identifying and fixing the bug would be greatly appreciated. Thanks!
-Failure-Inducing Input and Context:
-![Image](error1.pdf)
+
+
+![image](error1.pdf)
 
 
 ### Command to Compile the Java File:
@@ -44,7 +45,7 @@ Failure-Inducing Input and Context:
 By following the steps mentioned above, including having the DataAnalyzer.java and data.txt files in the same directory, and running the commands javac DataAnalyzer.java and java DataAnalyzer, you will encounter the ArrayIndexOutOfBoundsException error due to a specific condition in the loadData method of the DataAnalyzer class.
 
 The issue lies in the loop within the loadData method, which is responsible for populating the data array with values from the data.txt file.
-[image](errorshown.pdf)
+![image](errorshown.pdf)
 
 
 
@@ -78,7 +79,7 @@ After modifying the code as suggested, the program should run without any errors
 # Setup:
 
 ## File & Directory Structure:
-[image](newlibrary.pdf)
+![image](newlibrary.pdf)
 This is just my most recent library that was already under the downloads folder on my mac making it very easy to access and run in terminal. This is my overall prefernce of running methods to see if they are working and correct. We are prgrammers can also do this so we get more different using different interfaces.
 The Java file should be named `DataAnalyzer.java.`
 The bash script file should be named `generate_data.sh.`
