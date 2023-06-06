@@ -1,7 +1,7 @@
 # Lab Report 5: Debugging
 
 ## Introduction
-In this lab report, I will be addressing the debugging issue encountered in the provided code. The goal is to identify and fix the error to ensure the program runs without any issues.
+In this lab report, I will be addressing the debugging issue encountered in the provided code. The goal is to identify and fix the error to ensure the file runs without any issues.
 
 # Part 1: Identifying the Issue
 
@@ -11,26 +11,28 @@ In this lab report, I will be addressing the debugging issue encountered in the 
 The issue in the code is an ArrayIndexOutOfBoundsException error that occurs when accessing elements in the data array. The error message suggests that the index used to access the array is out of bounds.
 
 ### Environment (computer, operating system, web browser, terminal/editor, and so on)
-- Mac Computer. 
+- Mac Computer
 - macOS
-- Running on Terminal. 
-- Files built on Eclipse.
+- Running on Terminal 
+- Files built on Eclipse
 - VS allowed bash to run
 
 
 
 ### Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, and copy-pasted terminal output is also great. 
 
-I'm working on a Java program that reads data from a file and perform calculations to find the average. However, I'm encountering an ArrayIndexOutOfBoundsException error, and I'm not sure what's causing it. It seems to happen when I'm accessing an element in an array. Im expecting to see this program run and compute the average of numbers the given file. I suspect the issue lies in the loadData method, specifically when populating the data array. Any help in identifying and fixing the bug would be greatly appreciated. Thanks!
+I'm working on a Java program that reads data from a file and perform calculations to find the average. However, I'm encountering an ArrayIndexOutOfBoundsException error, and I'm not sure what's causing it. It seems to happen when I'm accessing an element in an array. I'm expecting to see this program run and compute the average of numbers the given file. I suspect the issue lies in the loadData method, specifically when populating the data array.
+
+
 ![image](practice.pdf)
 
-## Detail the failure-inducing input and context
+Any help in identifying and fixing the bug would be greatly appreciated. Thanks!
+
 
 ## Failure-Inducing Input and Context:
 
 
 ### Command to Compile the Java File:
-
 
 `javac DataAnalyzer.java`
 
@@ -85,9 +87,11 @@ After modifying the code as suggested, the program should run without any errors
 
 ## File & Directory Structure:
 ![image](newlibrary.pdf)
-This is just my most recent library that was already under the downloads folder on my mac making it very easy to access and run in terminal. This is my overall prefernce of running methods to see if they are working and correct. We as programmers can also do this so we get more adjusted to using different interfaces.
+
+This is just my most recent library that was already under the Downloads folder on my mac making it very easy to access and run in terminal. This is my overall preference of running methods to see if they are working and correct. We as programmers can also do this so we get more adjusted to using different interfaces.
 
 The Java file should be named `DataAnalyzer.java.`
+
 The bash script file should be named `generate_data.sh.`
 
 Both files should be located in the same directory. Which they are but one's in Visual Studio Code and one is in Eclipse.
