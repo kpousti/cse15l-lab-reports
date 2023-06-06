@@ -43,14 +43,11 @@ Any help in identifying and fixing the bug would be greatly appreciated. Thanks!
 
 ![image](error1.pdf)
 
-By following the steps mentioned above, including having the DataAnalyzer.java and data.txt files in the same directory, and running the commands javac DataAnalyzer.java and java DataAnalyzer, you will encounter the ArrayIndexOutOfBoundsException error due to a specific condition in the loadData method of the DataAnalyzer class.
+By following the steps mentioned above, including having the DataAnalyzer.java and data.txt files in the same directory, and running the commands `javac DataAnalyzer.java` and `java DataAnalyzer`, you will encounter the ArrayIndexOutOfBoundsException error due to a specific condition in the loadData method of the DataAnalyzer class.
 
 The issue lies in the loop within the loadData method, which is responsible for populating the data array with values from the data.txt file.
 
 ![image](errorshown.pdf)
-
-
-
 
 ## Part 1.1: TA's Solution
 
@@ -168,7 +165,7 @@ import java.util.Scanner;
 ```
 
 
-generate_data.sh:
+### generate_data.sh:
 
 ```
 
