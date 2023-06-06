@@ -1,4 +1,4 @@
-# Lab Report: Debugging
+# Lab Report 5: Debugging
 
 ## Introduction
 In this lab report, I will be addressing the debugging issue encountered in the provided code. The goal is to identify and fix the error to ensure the program runs without any issues.
