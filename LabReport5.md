@@ -21,7 +21,7 @@ The issue in the code is an ArrayIndexOutOfBoundsException error that occurs whe
 
 ### Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, and copy-pasted terminal output is also great. 
 
-I'm working on a Java program that reads data from a file and perform calculations to find the average. However, I'm encountering an ArrayIndexOutOfBoundsException error, and I'm not sure what's causing it. It seems to happen when I'm accessing an element in an array. I'm expecting to see this program run and compute the average of numbers the given file. I suspect the issue lies in the loadData method, specifically when populating the data array.
+I'm working on a Java program that reads data from a file and performs calculations to find the average of the given file. However, I'm encountering an ArrayIndexOutOfBoundsException error, and I'm not sure what's causing it. It seems to happen when I'm accessing an element in an array. I'm expecting to see this program run and compute the average of numbers the given file. I suspect the issue lies in the loadData method, specifically when populating the data array.
 
 
 ![image](practice.pdf)
@@ -78,6 +78,7 @@ I'm here to help!
 
 Here's an updated screenshot showing the modified code:
 ![Image](errorcodefixed.pdf)
+![Image](newnew.pdf)
 
 After modifying the code as suggested, the program should run without any errors. The ArrayIndexOutOfBoundsException was occurring because the loop in the loadData method was going beyond the array bounds by using i <= size instead of i < size. By making this correction, we ensure that the loop only iterates through valid array indices.
 
