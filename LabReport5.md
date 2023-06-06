@@ -116,7 +116,7 @@ import java.util.Scanner;
             Scanner scanner = new Scanner(file);
             int size = scanner.nextInt();
             data = new double[size];
-            for (int i = 0; i <= size; i++) {
+            for (int i = 0; i < size; i++) {
                 data[i] = scanner.nextDouble();
             }
             scanner.close();
