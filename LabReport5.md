@@ -101,7 +101,8 @@ In the original code, the loop condition i <= size allows the loop to iterate si
 Here's the updated code that fixes the bug:
 
 ### DataAnalyzer.java:
-`
+
+``
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -138,7 +139,7 @@ public class DataAnalyzer {
         double average = sum / data.length;
         System.out.println("Average: " + average);
     }
-`
+``
 
 
 
