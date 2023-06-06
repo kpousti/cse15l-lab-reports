@@ -139,7 +139,7 @@ public class DataAnalyzer {
         double average = sum / data.length;
         System.out.println("Average: " + average);
     }
-``
+
 
 
 
