@@ -98,7 +98,7 @@ Both files should be located in the same directory. Which they are but one's in 
 
 The generate_data.sh script uses shell commands to write the desired data into the data.txt file. This automation can be useful when you need to generate data files for testing or when you want to streamline the data generation process.
 
-![image](errorcodefixed.pdf)
+![image](codebefore.pdf)
 ### Full command line (or lines) to trigger the bug:
 
 Compile the Java file:
