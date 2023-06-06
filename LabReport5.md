@@ -106,17 +106,11 @@ Here's the updated code that fixes the bug:
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-public class DataAnalyzer {
-    private static final String FILE_NAME = "data.txt";
-    private static double[] data;
-
     public static void main(String[] args) {
         loadData();
         analyzeData();
     }
-
-    public static void loadData() {
+ public static void loadData() {
         try {
             File file = new File(FILE_NAME);
             Scanner scanner = new Scanner(file);
@@ -130,8 +124,7 @@ public class DataAnalyzer {
             System.out.println("File not found: " + FILE_NAME);
         }
     }
-
-    public static void analyzeData() {
+     public static void analyzeData() {
         double sum = 0;
         for (int i = 0; i < data.length; i++) {
             sum += data[i];
@@ -140,7 +133,7 @@ public class DataAnalyzer {
         System.out.println("Average: " + average);
     }
 
-
+``
 
 
 generate_data.sh:
