@@ -45,7 +45,7 @@ Any help in identifying and fixing the bug would be greatly appreciated. Thanks!
 
 By following the steps mentioned above, including having the DataAnalyzer.java and data.txt files in the same directory, and running the commands `javac DataAnalyzer.java` and `java DataAnalyzer`, you will encounter the ArrayIndexOutOfBoundsException error due to a specific condition in the loadData method of the DataAnalyzer class.
 
-The issue lies in the loop within the loadData method, which is responsible for populating the data array with values from the data.txt file.
+The issue lies in the loop within the loadData method, which is responsible for populating the data array with values from the `data.txt` file.
 
 ![image](errorshown.pdf)
 
@@ -54,7 +54,7 @@ The issue lies in the loop within the loadData method, which is responsible for 
 ### TA's Response
 Hey there,
 
-I've identified the issue in your code. It seems to be related to the loop in your loadData method. The problem lies in the loop condition i <= size, which should actually be i < size. This is because array indices start from 0 and go up to size - 1, so the loop should only iterate size times.
+I've identified the issue in your code. It seems to be related to the loop in your loadData method. The problem lies in the loop condition `i <= size`, which should actually be `i < size`. This is because array indices start from 0 and go up to size - 1, so the loop should only iterate size times.
 
 To fix the issue, please modify the loop condition as follows:
 
@@ -77,7 +77,7 @@ Here's an updated screenshot showing the modified code:
 ![Image](errorcodefixed.pdf)
 ![Image](newnew.pdf)
 
-After modifying the code as suggested, the program should run without any errors. The ArrayIndexOutOfBoundsException was occurring because the loop in the loadData method was going beyond the array bounds by using i <= size instead of i < size. By making this correction, we ensure that the loop only iterates through valid array indices.
+After modifying the code as suggested, the program should run without any errors. The ArrayIndexOutOfBoundsException was occurring because the loop in the loadData method was going beyond the array bounds by using `i <= size` instead of `i < size`. By making this correction, we ensure that the loop only iterates through valid array indices.
 
 # Setup:
 
@@ -96,24 +96,24 @@ Both files should be located in the same directory. Which they are but one's in 
 ## The contents of each file before fixing the bug:
 ![image](bash.pdf)
 
-The generate_data.sh script uses shell commands to write the desired data into the data.txt file. This automation can be useful when you need to generate data files for testing or when you want to streamline the data generation process.
+The `generate_data.sh` script uses shell commands to write the desired data into the `data.txt` file. This automation can be useful when you need to generate data files for testing or when you want to streamline the data generation process.
 
 ![image](codebefore.pdf)
 ### Full command line (or lines) to trigger the bug:
 
 Compile the Java file:
-Copy code
+
 ``javac DataAnalyzer.java``
 
 ---
 Run the Java program:
-Copy code
+
 ``java DataAnalyzer``
 
 ---
 
 ### Fixed code block:
-Copy code
+
 ``
 for (int i = 0; i < size; i++) {
     data[i] = scanner.nextDouble();
