@@ -189,7 +189,6 @@ This change ensures that the loop stays within the valid index range of the data
 
 After making the necessary modifications, recompile the Java file and run the program again. The bug should be fixed, and the program should run without errors, correctly loading the data from the file.
 
-Let me know if you need any further assistance!
 
 
 ## Part 2: 
