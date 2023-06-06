@@ -102,7 +102,7 @@ Here's the updated code that fixes the bug:
 
 ### DataAnalyzer.java:
 
-``
+```
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -133,7 +133,7 @@ import java.util.Scanner;
         System.out.println("Average: " + average);
     }
 
-``
+```
 
 
 generate_data.sh:
