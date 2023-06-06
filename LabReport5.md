@@ -44,6 +44,7 @@ I'm working on a Java program that reads data from a file and perform calculatio
 By following the steps mentioned above, including having the DataAnalyzer.java and data.txt files in the same directory, and running the commands javac DataAnalyzer.java and java DataAnalyzer, you will encounter the ArrayIndexOutOfBoundsException error due to a specific condition in the loadData method of the DataAnalyzer class.
 
 The issue lies in the loop within the loadData method, which is responsible for populating the data array with values from the data.txt file.
+
 ![image](errorshown.pdf)
 
 
@@ -65,7 +66,9 @@ for (int i = 0; i < size; i++) {
 ``
 After making this change, recompile the DataAnalyzer.java file and run the program again. This should resolve the ArrayIndexOutOfBoundsException error you encountered.
 
-If you have any further issues or need additional assistance, please let me know. I'm here to help!
+If you have any further issues or need additional assistance, please let me know. 
+
+I'm here to help!
 
 ---
 
@@ -73,6 +76,7 @@ If you have any further issues or need additional assistance, please let me know
 
 Here's an updated screenshot showing the modified code:
 ![Image](errorcodefixed.pdf)
+
 After modifying the code as suggested, the program should run without any errors. The ArrayIndexOutOfBoundsException was occurring because the loop in the loadData method was going beyond the array bounds by using i <= size instead of i < size. By making this correction, we ensure that the loop only iterates through valid array indices.
 
 # Setup:
@@ -169,7 +173,6 @@ Copy code
 ``java DataAnalyzer``
 
 ---
-
 
 ### Fixed code block:
 Copy code
