@@ -101,7 +101,26 @@ Both files should be located in the same directory. Which they are but one's in 
 The generate_data.sh script uses shell commands to write the desired data into the data.txt file. This automation can be useful when you need to generate data files for testing or when you want to streamline the data generation process.
 
 ![image](errorcodefixed.pdf)
+### Full command line (or lines) to trigger the bug:
 
+Compile the Java file:
+Copy code
+``javac DataAnalyzer.java``
+
+---
+Run the Java program:
+Copy code
+``java DataAnalyzer``
+
+---
+
+### Fixed code block:
+Copy code
+``
+for (int i = 0; i < size; i++) {
+    data[i] = scanner.nextDouble();
+}
+``
 ### Commands Given:
 ![image](commandsgiven.pdf)
 
@@ -165,26 +184,7 @@ echo "Data file generated successfully."
 
 ```
 
-Full command line (or lines) to trigger the bug:
 
-Compile the Java file:
-Copy code
-``javac DataAnalyzer.java``
-
----
-Run the Java program:
-Copy code
-``java DataAnalyzer``
-
----
-
-### Fixed code block:
-Copy code
-``
-for (int i = 0; i < size; i++) {
-    data[i] = scanner.nextDouble();
-}
-``
 This change ensures that the loop stays within the valid index range of the data array and prevents the ArrayIndexOutOfBoundsException error.
 
 After making the necessary modifications, recompile the Java file and run the program again. The bug should be fixed, and the program should run without errors, correctly loading the data from the file.
