@@ -125,7 +125,7 @@ for (int i = 0; i < size; i++) {
 To fix the ArrayIndexOutOfBoundsException bug in the DataAnalyzer program, you need to modify the loop condition in the loadData method.
 
 ### What to edit to fix the bug:
-In the original code, the loop condition i <= size allows the loop to iterate size + 1 times, which goes beyond the bounds of the data array. To correct this, you should change the loop condition to i < size, ensuring that the loop iterates exactly size times.
+In the original code, the loop condition `i <= size` allows the loop to iterate size + 1 times, which goes beyond the bounds of the data array. To correct this, you should change the loop condition to `i < size`, ensuring that the loop iterates exactly size times.
 
 Here's the updated code that fixes the bug:
 
