@@ -74,7 +74,6 @@ It showed up changed...
 
 Running the test again,we press `bash test.sh` then `<enter>`, showing the fruit of our labor. 
 
-![eight]passtest.pdf)
 - Keys pressed: <up><up><up><up><enter>
 - Effect: Uses the up arrow key to access the previous command from the command history. This retrieves the bash test.sh command from Step 6, allowing for easy re-execution of the test script.
 
