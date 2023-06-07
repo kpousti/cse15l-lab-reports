@@ -6,8 +6,10 @@
 # Step 4: 
 
 First step we wanna complete is to `ssh` to gain remote access and then git clone the given respository.
+- Keys pressed: `ssh` username@ieng6.ucsd.edu<enter>
+- Effect: Initiates an SSH connection to the ieng6 server, allowing remote access.
 
-![First](sshentry.pdf)
+ ![image](sshentry.pdf)
 
 
 Due to my ssh key not being setup yet, I still do have to enter my password everytime.
@@ -15,6 +17,10 @@ Due to my ssh key not being setup yet, I still do have to enter my password ever
 # Step 5 
  
 Using `<ctrl><r>` I was able to refernce my past history, primarily those commands made in the lab that allowed for a shortcut to be made. I then entered 'gi' in the reverse search and the clone with the selected repository showed up.
+- Keys pressed: <ctrl><r>, gi<tab>
+- Effect: Uses Ctrl+R to search the command history, then types "gi" and uses tab completion to select the git clone command for the repository.
+- Keys pressed: <enter>
+- Effect: Executes the git clone command and clones the repository to the local machine.
 
 ![Secnd](gitclone.pdf)
 
@@ -23,6 +29,10 @@ Once cloned, I pressed `<Enter>` and the ball was rollin...
 ![Third?](gitclone2.pdf)
 
 After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` This allowed for me to pratcice Profesors shortcut using `<Tab>`
+- Keys pressed: ls
+- Effect: Lists the contents of the current directory.
+- Keys pressed: cd l<tab>
+- Effect: Changes the directory to "lab 7" using tab completion.
 
 # Step 6
 
@@ -56,7 +66,8 @@ Make sure to exit INSERT mode by pressing `<Escape>` , we can then exit VIM by p
  You can always check by typing `less ListExamples.java`
 
 ![seven](checktosee.pdf)
-
+- Keys pressed: ls, less te<tab>
+- Effect: Uses ls to list the contents of the current directory, then uses less to view the contents of the "Test.sh" file.
 It showed up changed...
 
 # Step 8
@@ -64,8 +75,8 @@ It showed up changed...
 Running the test again,we press `bash test.sh` then `<enter>`, showing the fruit of our labor. 
 
 ![eight]passtest.pdf)
-
-The tests do indeed end up passing this time meaning we were able to fix our buggy code in the terminal itself.
+- Keys pressed: <up><up><up><up><enter>
+- Effect: Uses the up arrow key to access the previous command from the command history. This retrieves the bash test.sh command from Step 6, allowing for easy re-execution of the test script.
 
 ![nine](passtest.pdf)
 
@@ -75,4 +86,7 @@ Our final step just needs us to commit the code to github.
 
 ![Ten](pushtogit.pdf)
 
-The first thing we must do is type `git add .<enter>` in order add all the changed files. Then type in `git commit -m "fix"<enter>` to commit the changes, and finally type `git push<enter>` to push the changes. 
+The first thing we must do is type `git add .<enter>` in order add all the changed files. Then type in `git commit -m "fix"<enter>` to commit the changes, and finally type `git push<enter>` to push the changes.
+- Keys pressed: <ctrl><r>, git push<enter>
+- Effect: Initiates a reverse search using Ctrl-R. Searches for the git push command in the command history. Once found, executes the command to push the committed changes to the GitHub repository.b.
+
