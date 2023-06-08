@@ -9,29 +9,29 @@ First step we wanna complete is to `ssh` to gain remote access and then git clon
 - Keys pressed: `ssh` username@ieng6.ucsd.edu `<enter>`
 - Effect: Initiates an SSH connection to the ieng6 server, allowing remote access.
 - When prompted `<enter>` password 
+- Due to my ssh key not being setup yet, I still do have to enter my password everytime.
 
  ![image](sshentry.pdf)
 
-Due to my ssh key not being setup yet, I still do have to enter my password everytime.
 
 # Step 5 
  
-Using `<ctrl><r>` I was able to refernce my past history, primarily those commands made in the lab that allowed for this shortcut to be made. I then entered 'gi' in the reverse search and the clone with the selected repository showed up.
+Using `<ctrl><r>` I was able to refernce my past history, primarily those commands made in the lab that allowed for this shortcut to be made. I then entered gi in the reverse search and the clone with the selected repository showed up.
 
 To clone my forked repository from my GitHub account, I used the following keystrokes:
 
 - Keys pressed: `<ctrl><r>`, `gi<tab>`, `<enter>`
-- Effect: Uses Ctrl+R to search the command history, types `gi,` and uses tab completion to select the git clone command for the repository. Then, executes the command to clone the repository to the local machine.
+- Effect: Uses Ctrl+R to search the command history, types `gi,` and uses tab completion to select the` git clone` command for the repository. Then, executes the command to clone the repository to the local machine.
 
 
 ![Secnd](gitclone.pdf)
 
 Once cloned, I pressed `<Enter>` and the ball was rollin...
 - Keys pressed: `<Enter>`
-- Effect: Executes the git clone command and clones the repository to the local machine.
+- Effect: Executes the `git clone` command and clones the repository to the local machine.
 ![Third?](gitclone2.pdf)
 
-After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` This allowed for me to pratcice Profesors shortcut using `<Tab>`
+After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` This allowed for me to pratcice Profesors shortcut using `<tab>`
 - Keys pressed: `ls`
 - Effect: Lists the contents of the current directory.
 - Keys pressed: `cd l<tab>`
