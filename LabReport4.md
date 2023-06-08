@@ -33,16 +33,16 @@ Once cloned, I pressed `<Enter>` and the ball was rollin...
 ![Third?](gitclone2.pdf)
 
 After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` this allowed for me to pratcice professors shortcut using `<tab>`
-- Keys pressed: `ls`
+- Keys pressed: `ls``<enter>`
 - Effect: Lists the contents of the current directory.
-- Keys pressed: `cd l<tab>`
+- Keys pressed: `cd l<tab>``<enter>`
 - Effect: Changes the directory to "lab 7" using tab completion.
 ![four](lsoption.pdf)
 # Step 6
 
 After executing `ls`, I found a file named `test.sh`. To check the contents of the bash script using the `less` command, I used the following keystrokes:
 
-- Keys pressed: `less te<tab>`
+- Keys pressed: `less te<tab>``<enter>`
 - Effect: Uses the less command to view the contents of the `test.sh` file.
 ![four](testsh.pdf)
 
@@ -51,7 +51,7 @@ Pressing `Q` allowed me to return back.
 
 To run the tests and observe the failures, I executed the following command:
 
-Keys pressed: `bash te<tab>`
+Keys pressed: `bash te<tab>``<enter>`
 Effect: Runs the tests by executing the `test.sh` bash script.
 
 Running `bash tesh.sh` revealed the  failed tests and the line where the error occurs.
@@ -81,7 +81,7 @@ Once the changes were made, I exited INSERT mode by pressing `<Escape>`. To exit
  You can always check by typing `less ListExamples.java`
 
 ![seven](checktosee.pdf)
-- Keys pressed: `ls`, `less ListE<tab>`
+- Keys pressed: `ls`, `less ListE<tab>``<enter>`
 - Effect: Uses `ls` to list the contents of the current directory, then uses `less` to view the contents of the `ListExamples.java` file.
 It showed up changed...
 
