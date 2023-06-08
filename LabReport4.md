@@ -51,8 +51,8 @@ Pressing `Q` allowed me to return back.
 
 To run the tests and observe the failures, I executed the following command:
 
-Keys pressed: `bash te<tab>``<enter>`
-Effect: Runs the tests by executing the `test.sh` bash script.
+- Keys pressed: `bash te<tab>``<enter>`
+- Effect: Runs the tests by executing the `test.sh` bash script.
 
 Running `bash tesh.sh` revealed the  failed tests and the line where the error occurs.
 
