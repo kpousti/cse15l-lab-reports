@@ -5,7 +5,7 @@
 ---
 # Step 4: 
 
-First step we wanna complete is to `ssh` to gain remote access and then git clone the given respository.
+First step we wanna complete is to `ssh` to gain remote access and then `git clone` the given respository.
 - Keys pressed: `ssh` username@ieng6.ucsd.edu `<enter>`
 - Effect: Initiates an SSH connection to the ieng6 server, allowing remote access.
 - When prompted `<enter>` password 
