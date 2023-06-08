@@ -16,7 +16,7 @@ First step we wanna complete is to `ssh` to gain remote access and then git clon
 
 # Step 5 
  
-Using `<ctrl><r>` I was able to reference my past history, primarily those commands made in the lab that allowed for this shortcut to be made. I then entered gi in the reverse search and the clone with the selected repository showed up.
+Using `<ctrl><r>` I was able to reference my past history, primarily those commands made in the lab that allowed for this shortcut to be made. I then entered `gi` in the reverse search and the clone with the selected repository showed up.
 
 To clone my forked repository from my GitHub account, I used the following keystrokes:
 
@@ -37,14 +37,14 @@ After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to 
 - Effect: Lists the contents of the current directory.
 - Keys pressed: `cd l<tab>`
 - Effect: Changes the directory to "lab 7" using tab completion.
-
+![four](lsoption.pdf)
 # Step 6
 
-After executing ls, I found a file named `Test.sh`. To check the contents of the bash script using the `less` command, I used the following keystrokes:
+After executing ls, I found a file named `test.sh`. To check the contents of the bash script using the `less` command, I used the following keystrokes:
 
 - Keys pressed: `less te<tab>`
 - Effect: Uses the less command to view the contents of the "Test.sh" file.
-![four](lsoption.pdf)
+![four](testsh.pdf)
 
 
 Pressing `Q` allowed me to return back.
@@ -52,7 +52,7 @@ Pressing `Q` allowed me to return back.
 To run the tests and observe the failures, I executed the following command:
 
 Keys pressed: `bash te<tab>`
-Effect: Runs the tests by executing the `Test.sh` bash script.
+Effect: Runs the tests by executing the `test.sh` bash script.
 
 Running `bash tesh.sh` revealed the 2 failed tests and the line where the error occurs.
 
@@ -81,8 +81,8 @@ Once the changes were made, I exited INSERT mode by pressing `<Escape>`. To exit
  You can always check by typing `less ListExamples.java`
 
 ![seven](checktosee.pdf)
-- Keys pressed: `ls`, `less te<tab>`
-- Effect: Uses ls to list the contents of the current directory, then uses less to view the contents of the `Test.sh` file.
+- Keys pressed: `ls`, `less ListE<tab>`
+- Effect: Uses ls to list the contents of the current directory, then uses less to view the contents of the `ListExamples.java` file.
 It showed up changed...
 
 # Step 8
