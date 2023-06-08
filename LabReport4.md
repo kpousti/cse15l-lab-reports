@@ -32,7 +32,7 @@ Once cloned, I pressed `<Enter>` and the ball was rollin...
 - Effect: Executes the `git clone` command and clones the repository to the local machine.
 ![Third?](gitclone2.pdf)
 
-After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` this allowed for me to pratcice professors shortcut using `<tab>`
+After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` this allowed for me to practice professors shortcut using `<tab>`
 - Keys pressed: `ls``<enter>`
 - Effect: Lists the contents of the current directory.
 - Keys pressed: `cd l<tab>``<enter>`
