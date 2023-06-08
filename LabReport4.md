@@ -16,11 +16,12 @@ First step we wanna complete is to `ssh` to gain remote access and then git clon
 
 # Step 5 
  
-Using `<ctrl><r>` I was able to refernce my past history, primarily those commands made in the lab that allowed for this shortcut to be made. I then entered gi in the reverse search and the clone with the selected repository showed up.
+Using `<ctrl><r>` I was able to reference my past history, primarily those commands made in the lab that allowed for this shortcut to be made. I then entered gi in the reverse search and the clone with the selected repository showed up.
 
 To clone my forked repository from my GitHub account, I used the following keystrokes:
 
-- Keys pressed: `<ctrl><r>`, `gi<tab>`, `<enter>`
+- Keys pressed: `<ctrl><r>` `gi<tab>` `<enter>`
+- Keys pressed if no history: `git clone` `<enter>` "repository"
 - Effect: Uses Ctrl+R to search the command history, types `gi,` and uses tab completion to select the` git clone` command for the repository. Then, executes the command to clone the repository to the local machine.
 
 
@@ -39,24 +40,21 @@ After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to 
 
 # Step 6
 
-Now proceeding to press `ls` we can see the contents of the file we then found a file `Test.sh`, I had to check what was in the bash script by typing `less te<tab>`
-
 After executing ls, I found a file named `Test.sh`. To check the contents of the bash script using the `less` command, I used the following keystrokes:
 
 - Keys pressed: `less te<tab>`
 - Effect: Uses the less command to view the contents of the "Test.sh" file.
 ![four](lsoption.pdf)
 
-Press `Q` in order to return back
 
 Pressing `Q` allowed me to return back.
 
 To run the tests and observe the failures, I executed the following command:
 
 Keys pressed: `bash te<tab>`
-Effect: Runs the tests by executing the "Test.sh" bash script.
+Effect: Runs the tests by executing the `Test.sh` bash script.
 
-Running bash tesh.sh revealed the 2 failed tests and the line where the error occurs.
+Running `bash tesh.sh` revealed the 2 failed tests and the line where the error occurs.
 
 ![five](2testsfailed.pdf)
 
@@ -68,7 +66,7 @@ We then go to the problematic file called `ListExamples.java` using the command 
 To access the problematic file, "ListExamples.java," and edit it using the vim editor, I used the following keystrokes:
 
 - Keys pressed: `vim ListExamples.java` `<enter>`
-- Effect: Opens the "ListExamples.java" file in the vim editor, allowing access to all the lines in the file.
+- Effect: Opens the `ListExamples.java` file in the vim editor, allowing access to all the lines in the file.
 ![six](javafile.pdf)
 
 In the vim editor , I noticed that I could only scroll up and down and couldn't edit the file. To enter INSERT mode and make changes, I pressed `I`.
@@ -100,9 +98,9 @@ Running the test again,we press `bash test.sh` then `<enter>`, showing the fruit
 
 The final step involves committing the code to GitHub. Here are the necessary keystrokes:
 
-- Keys pressed: `git add .<enter>`, `git commit -m "fix"<enter>`, `git push<enter>`
-- Effect: Adds all the changed files using `git add`, commits the changes with the message "fix" using `git commit -m "fix"`, and pushes the changes to the GitHub repository using git push.
- Once found, executes the command to push the committed changes to the GitHub repository
+- Keys pressed:  `git push<enter>`
+- Effect:  git pushes the changes to the GitHub repository using git push.
+ Once found, executes the command to push the committed changes to the GitHub repository.
 
 ![Ten](pushtogit.pdf)
 
