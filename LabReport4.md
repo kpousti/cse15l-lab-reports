@@ -32,7 +32,7 @@ Once cloned, I pressed `<Enter>` and the ball was rollin...
 - Effect: Executes the `git clone` command and clones the repository to the local machine.
 ![Third?](gitclone2.pdf)
 
-After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` This allowed for me to pratcice Profesors shortcut using `<tab>`
+After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to do so, I changed the directory to lab 7 with the commmand;`cd l<tab>` this allowed for me to pratcice professors shortcut using `<tab>`
 - Keys pressed: `ls`
 - Effect: Lists the contents of the current directory.
 - Keys pressed: `cd l<tab>`
@@ -40,10 +40,10 @@ After typing `ls` I could see lab 7/ listed. Then with past knowledge of how to 
 ![four](lsoption.pdf)
 # Step 6
 
-After executing ls, I found a file named `test.sh`. To check the contents of the bash script using the `less` command, I used the following keystrokes:
+After executing `ls`, I found a file named `test.sh`. To check the contents of the bash script using the `less` command, I used the following keystrokes:
 
 - Keys pressed: `less te<tab>`
-- Effect: Uses the less command to view the contents of the "Test.sh" file.
+- Effect: Uses the less command to view the contents of the `test.sh` file.
 ![four](testsh.pdf)
 
 
@@ -54,7 +54,7 @@ To run the tests and observe the failures, I executed the following command:
 Keys pressed: `bash te<tab>`
 Effect: Runs the tests by executing the `test.sh` bash script.
 
-Running `bash tesh.sh` revealed the 2 failed tests and the line where the error occurs.
+Running `bash tesh.sh` revealed the  failed tests and the line where the error occurs.
 
 ![five](2testsfailed.pdf)
 
@@ -63,7 +63,7 @@ Running `bash tesh.sh` revealed the 2 failed tests and the line where the error 
 
 We then go to the problematic file called `ListExamples.java` using the command `vim ListExamples.java` showing and allowing us access to all the lines located in that file.
 
-To access the problematic file, "ListExamples.java," and edit it using the vim editor, I used the following keystrokes:
+To access the problematic file, `ListExamples.java` and edit it using the vim editor, I used the following keystrokes:
 
 - Keys pressed: `vim ListExamples.java` `<enter>`
 - Effect: Opens the `ListExamples.java` file in the vim editor, allowing access to all the lines in the file.
@@ -82,7 +82,7 @@ Once the changes were made, I exited INSERT mode by pressing `<Escape>`. To exit
 
 ![seven](checktosee.pdf)
 - Keys pressed: `ls`, `less ListE<tab>`
-- Effect: Uses ls to list the contents of the current directory, then uses less to view the contents of the `ListExamples.java` file.
+- Effect: Uses `ls` to list the contents of the current directory, then uses `less` to view the contents of the `ListExamples.java` file.
 It showed up changed...
 
 # Step 8
@@ -90,7 +90,7 @@ It showed up changed...
 Running the test again,we press `bash test.sh` then `<enter>`, showing the fruit of our labor. 
 
 - Keys pressed: `<up>``<up>``<up>``<up>``<enter>`
-- Effect: Uses the up arrow key to access the previous command from the command history. This retrieves the bash test.sh command from Step 6, allowing for easy re-execution of the test script.
+- Effect: Uses the up arrow key to access the previous command from the command history. This retrieves the `bash test.sh` command from Step 6, allowing for easy re-execution of the test script.
 
 ![nine](passtest.pdf)
 
@@ -99,7 +99,7 @@ Running the test again,we press `bash test.sh` then `<enter>`, showing the fruit
 The final step involves committing the code to GitHub. Here are the necessary keystrokes:
 
 - Keys pressed:  `git push<enter>`
-- Effect:  git pushes the changes to the GitHub repository using git push.
+- Effect:  git pushes the changes to the GitHub repository using `git push`
  Once found, executes the command to push the committed changes to the GitHub repository.
 
 ![Ten](pushtogit.pdf)
